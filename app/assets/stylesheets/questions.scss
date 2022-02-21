@@ -1,0 +1,37 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+p.prompt {
+  color: green;
+}
+
+input[type="submit"] {
+  background-color: rgb(143, 143, 224);
+  color: white;
+}
+
+.question {
+  border-radius: 5px;
+  background-color: rgb(141, 135, 135);
+  color: white;
+  padding: 10px;
+}
+
+.answer {
+  border-radius: 5px;
+  background-color: rgb(214, 141, 112);
+  color: white;
+  padding: 10px;
+}
+a {
+  color:blueviolet;
+
+  &:hover {
+    color:aqua;
+  }
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
